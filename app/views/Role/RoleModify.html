@@ -1,0 +1,43 @@
+<form class="form-horizontal">
+  <fieldset>
+    <h2 class="center"> Modify Role</h2>
+    <br/>
+
+    <div class="form-group">
+      <div class="col-lg-8">
+        <label class="clo-lg-4 control-label" for="user">User : </label>
+
+        <select id="user" name="user" class="form-control input-lg" ng-options="user.name for user in users"
+                ng-model="userSelect">
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-8">
+        <label class="clo-lg-4 control-label" for="project">Project : </label>
+
+
+        <select id="project" name="project" class="form-control input-lg" ng-options="project.title for project in projects"
+                ng-model="projectSelect">
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-8">
+        <label class="clo-lg-4 control-label" for="role">Role : </label>
+        <input id="role" name="role" placeholder="" class="form-control input-lg" required="" type="text" ng-model="role.name">
+      </div>
+    </div>
+
+    <div class="form-group center">
+      <div class="col-lg-offset-3 col-lg-6">
+        <button id="add" name="add" class="btn btn-success" ng-click="modify()">Update</button>
+        <a href="#/RoleView">
+          <button class="btn btn-danger">Cancel</button>
+        </a>
+      </div>
+    </div>
+
+
+  </fieldset>
+</form>

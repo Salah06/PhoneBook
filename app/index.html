@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body ng-app="showcaseApp">
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div class="container">
+  <ul class="navbar-fixed-top nav nav-pills navbar-inverse ">
+    <li><a ng-href="#"><b>Home</b></a></li>
+    <li><a ng-href="#/education"><b>Education</b></a></li>
+    <li><a ng-href="#/professional_experience"><b>Experience</b></a></li>
+    <li><a ng-href="#/phoneBook"><b>Phonebook</b></a></li>
+  </ul>
+  <div ng-view=""></div>
+
+
+</div>
+<div class="footer" ng-controller="AppCtrl">
+  <div class="navbar-fixed-bottom navbar-inverse" role="navigation">
+    <div class="containers">
+      <div class="copyright" align="center">
+        <p>{{posts.copyright}}</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-XXXXX-X');
+  ga('send', 'pageview');
+</script>
+
+<!--[if lt IE 9]>
+<script src="bower_components/es5-shim/es5-shim.js"></script>
+<script src="bower_components/json3/lib/json3.min.js"></script>
+<![endif]-->
+
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/modernizr/modernizr.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/json3/lib/json3.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-touch/angular-touch.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/main.js"></script>
+<script src="scripts/controllers/education.js"></script>
+<script src="scripts/controllers/ProfExperience.js"></script>
+<script src="scripts/service.js"></script>
+<script src="scripts/controllers/phoneBook.js"></script>
+<script src="scripts/controllers/User/userDetail.js"></script>
+<script src="scripts/controllers/User/userAdd.js"></script>
+<script src="scripts/controllers/User/userModify.js"></script>
+<script src="scripts/controllers/User/userView.js"></script>
+<script src="scripts/controllers/Project/projectDetail.js"></script>
+<script src="scripts/controllers/Project/projectAdd.js"></script>
+<script src="scripts/controllers/Project/projectModify.js"></script>
+<script src="scripts/controllers/Project/projectView.js"></script>
+<script src="scripts/controllers/Role/roleAdd.js"></script>
+<script src="scripts/controllers/Role/roleView.js"></script>
+<script src="scripts/controllers/Role/roleDetail.js"></script>
+<script src="scripts/controllers/Role/roleModify.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

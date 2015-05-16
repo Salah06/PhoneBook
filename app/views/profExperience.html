@@ -1,0 +1,15 @@
+<br/>
+<div ng-repeat="professionalExperience in posts.professionalExperience">
+<div class="media">
+  <div class="pull-left media-middle">
+    <a href="{{professionalExperience.link}}">
+      <img class="media-object" height="70" width="80" src="{{professionalExperience.image}}"/>
+    </a>
+  </div>
+  <div class="media-body ">
+    <h4 class="media-heading"><b>{{professionalExperience.name}}</b></h4>
+    <h4>{{professionalExperience.spec}}</h4>
+    <h5 align="right">Date : {{professionalExperience.year}}</h5>
+  </div>
+</div>
+</div>

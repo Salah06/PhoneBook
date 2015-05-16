@@ -1,0 +1,81 @@
+{
+  "name": "Dahmoul",
+  "first_name": "Salah",
+  "adress": "Nice, France",
+  "interest": "sports (football, handball, volleyball), new technologies",
+  "introduce": "A qualified international IT graduate engineering student with professional experience looking for an internship in computer programming from",
+  "presentation": "Born November 13th, 1993, in Nice, France 21 years old",
+  "marital_status": "single",
+  "image_profile": "/images/profile.jpg",
+  "copyright": "© Dahmoul Salah 2015",
+  "drive_license": true,
+  "education": [
+    {
+      "image": "/images/polytech.jpg",
+      "year": "2013-2014",
+      "name": "Ecole Polytechnique Universitaire Polytech’Nice-Sophia Graduate Engineering School), Sophia-Antipolis, France.",
+      "spec": "Diploma in Science Informatique (S.I.) – a three-year degree in Computer Science"
+    },
+    {
+      "image": "/images/iut.jpg",
+      "year": "2010-2013",
+      "name": "Institut Universitaire de Technologie (I.U.T),Université de Nice, France.",
+      "spec": "Obtained a Diplôme Universitaire de Technologie (equivalent to a two-year university of technology degree) in Computer Science. Graduated 2/99"
+    },
+    {
+      "image": "/images/calmette.jpg",
+      "year": "2010",
+      "name": "Lycée Albert Calmette, Nice, France.",
+      "spec": "Baccalauréat S  (scientific subjects, equivalent to British ‘A’ Level or American High School Diploma)."
+    }
+  ],
+  "professionalExperience": [
+    {
+      "image": "/images/hbm.jpg",
+      "link": "http://www.hbmdistribution.com/",
+      "year": "2014",
+      "name": "Internship (4 months), fixed-term contract (2 months) at HBM Distribution (E-commerce), Vence, France",
+      "spec": "Creation and editing an e -commerce website. Used Prestashop, JavaScript, PHP & HTML."
+    },
+    {
+      "image": "/images/ispace.jpg",
+      "link": "http://www.societe.com/societe/ispace-systems-communications-527660005.html",
+      "year": "2014",
+      "name": "Fixed-term contract (2 months) at iSpace Systeme & Communication (internet Service), Grasse, France",
+      "spec": "Configured PCs and installed servers in a data center (Linux server) Within a team, I worked on the improvement of a website. Used Linux commands, PHP,  HTML & CSS"
+    },
+    {
+      "image": "/images/fff.jpg",
+      "link": "http://www.fff.fr/",
+      "year": "Since 2009",
+      "name": "Official referee for the FFF (Federation Française de Football / French National Football Association)",
+      "spec": "Regional level since 2012Appointed for about 2 football game every week"
+    }
+  ],
+  "computer_science_experience": {
+    "operating_system": "Linux, Mac OS, Windows (proficient)",
+    "database": "MYSQL, POSTGRESQL, SQL (proficient)",
+    "internet": "HTML, CSS, Javascript, PHP, prestashop (proficient)",
+    "programming_languages": "C, C#, C++, JAVA, Python, VisualBasic (good)"
+  },
+  "language_skills": [
+    {
+      "language": "French",
+      "level": "native language"
+    },
+    {
+      "language": "English",
+      "level": "fluent (T.O.E.I.C® - Test Of English for International Communication – score :  715/990)"
+    },
+    {
+      "language": "Arabic",
+      "level": "conversational (working knowledge)"
+    }
+  ],
+  "community_Involvement": [
+    {
+      "subject": "Member of a Toy drive for children",
+      "role": "Polygifts 2014 Making contact with businesses Collecting toys in companies"
+    }
+  ]
+}

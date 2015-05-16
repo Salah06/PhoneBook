@@ -1,0 +1,15 @@
+<br/>
+<div ng-repeat="education in posts.education">
+  <div class="media">
+    <div class="pull-left media-middle">
+      <a href="">
+        <img class="media-object" height="70" width="80" src="{{education.image}}"/>
+      </a>
+    </div>
+    <div class="media-body ">
+      <h4 class="media-heading"><b>{{education.name}}</b></h4>
+      <h4>{{education.spec}}</h4>
+      <h5 align="right">Date : {{education.year}}</h5>
+    </div>
+  </div>
+</div>

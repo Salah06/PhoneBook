@@ -1,0 +1,1210 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 warn package.json web@ No description
+5 warn package.json web@ No repository field.
+6 warn package.json web@ No README data
+7 verbose install where, deps [ '/home/user/web',
+7 verbose install   [ 'apache-server-configs',
+7 verbose install     'grunt',
+7 verbose install     'grunt-autoprefixer',
+7 verbose install     'grunt-concurrent',
+7 verbose install     'grunt-contrib-clean',
+7 verbose install     'grunt-contrib-concat',
+7 verbose install     'grunt-contrib-connect',
+7 verbose install     'grunt-contrib-copy',
+7 verbose install     'grunt-contrib-cssmin',
+7 verbose install     'grunt-contrib-htmlmin',
+7 verbose install     'grunt-contrib-imagemin',
+7 verbose install     'grunt-contrib-jshint',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-mocha',
+7 verbose install     'grunt-modernizr',
+7 verbose install     'grunt-newer',
+7 verbose install     'grunt-rev',
+7 verbose install     'grunt-svgmin',
+7 verbose install     'grunt-usemin',
+7 verbose install     'grunt-wiredep',
+7 verbose install     'jshint-stylish',
+7 verbose install     'load-grunt-tasks',
+7 verbose install     'time-grunt' ] ]
+8 verbose install where, peers [ '/home/user/web', [] ]
+9 info preinstall web@
+10 verbose already installed skipping grunt-contrib-cssmin@^0.10.0 /home/user/web
+11 verbose already installed skipping grunt-contrib-htmlmin@^0.3.0 /home/user/web
+12 verbose already installed skipping grunt-contrib-imagemin@^0.8.0 /home/user/web
+13 silly cache add args [ 'grunt-contrib-jshint@^0.10.0', null ]
+14 verbose cache add spec grunt-contrib-jshint@^0.10.0
+15 silly cache add parsed spec { raw: 'grunt-contrib-jshint@^0.10.0',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'grunt-contrib-jshint',
+15 silly cache add   rawSpec: '^0.10.0',
+15 silly cache add   spec: '>=0.10.0 <0.11.0',
+15 silly cache add   type: 'range' }
+16 verbose addNamed grunt-contrib-jshint@>=0.10.0 <0.11.0
+17 silly addNamed semver.valid null
+18 silly addNamed semver.validRange >=0.10.0 <0.11.0
+19 silly addNameRange { name: 'grunt-contrib-jshint',
+19 silly addNameRange   range: '>=0.10.0 <0.11.0',
+19 silly addNameRange   hasData: false }
+20 silly mapToRegistry name grunt-contrib-jshint
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-jshint
+24 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-jshint not in flight; fetching
+25 verbose already installed skipping grunt-contrib-uglify@^0.5.1 /home/user/web
+26 verbose already installed skipping grunt-contrib-watch@^0.6.1 /home/user/web
+27 verbose already installed skipping grunt-mocha@^0.4.10 /home/user/web
+28 verbose already installed skipping grunt-modernizr@^0.5.2 /home/user/web
+29 verbose already installed skipping grunt-newer@^0.7.0 /home/user/web
+30 verbose already installed skipping grunt-rev@^0.1.0 /home/user/web
+31 verbose already installed skipping grunt-svgmin@^0.4.0 /home/user/web
+32 verbose request uri https://registry.npmjs.org/grunt-contrib-jshint
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 18:43:52
+35 verbose request id f3e5a2f0a903ba14
+36 verbose etag "B1BH82GT9GVM0C692EHTEHKNP"
+37 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+38 verbose already installed skipping grunt-usemin@^2.3.0 /home/user/web
+39 verbose already installed skipping grunt-wiredep@^1.7.0 /home/user/web
+40 verbose already installed skipping jshint-stylish@^0.4.0 /home/user/web
+41 verbose already installed skipping load-grunt-tasks@^0.4.0 /home/user/web
+42 verbose already installed skipping time-grunt@^0.4.0 /home/user/web
+43 verbose already installed skipping apache-server-configs@^2.7.1 /home/user/web
+44 verbose already installed skipping grunt@^0.4.5 /home/user/web
+45 verbose already installed skipping grunt-autoprefixer@^1.0.0 /home/user/web
+46 verbose already installed skipping grunt-concurrent@^0.5.0 /home/user/web
+47 verbose already installed skipping grunt-contrib-clean@^0.6.0 /home/user/web
+48 verbose already installed skipping grunt-contrib-concat@^0.5.0 /home/user/web
+49 verbose already installed skipping grunt-contrib-connect@^0.8.0 /home/user/web
+50 verbose already installed skipping grunt-contrib-copy@^0.5.0 /home/user/web
+51 http 304 https://registry.npmjs.org/grunt-contrib-jshint
+52 silly get cb [ 304,
+52 silly get   { date: 'Thu, 02 Apr 2015 16:43:52 GMT',
+52 silly get     server: 'Apache',
+52 silly get     via: '1.1 varnish',
+52 silly get     'last-modified': 'Thu, 02 Apr 2015 16:43:52 GMT',
+52 silly get     'cache-control': 'max-age=60',
+52 silly get     etag: '"B1BH82GT9GVM0C692EHTEHKNP"',
+52 silly get     age: '44',
+52 silly get     'x-served-by': 'cache-fra1244-FRA',
+52 silly get     'x-cache': 'HIT',
+52 silly get     'x-cache-hits': '1',
+52 silly get     'x-timer': 'S1427993032.694258,VS0,VE0',
+52 silly get     vary: 'Accept',
+52 silly get     'content-length': '0',
+52 silly get     'keep-alive': 'timeout=10, max=50',
+52 silly get     connection: 'Keep-Alive' } ]
+53 verbose etag https://registry.npmjs.org/grunt-contrib-jshint from cache
+54 verbose get saving grunt-contrib-jshint to /home/user/.npm/registry.npmjs.org/grunt-contrib-jshint/.cache.json
+55 silly addNameRange number 2 { name: 'grunt-contrib-jshint',
+55 silly addNameRange   range: '>=0.10.0 <0.11.0',
+55 silly addNameRange   hasData: true }
+56 silly addNameRange versions [ 'grunt-contrib-jshint',
+56 silly addNameRange   [ '0.1.0',
+56 silly addNameRange     '0.1.1',
+56 silly addNameRange     '0.2.0',
+56 silly addNameRange     '0.3.0',
+56 silly addNameRange     '0.4.0',
+56 silly addNameRange     '0.4.1',
+56 silly addNameRange     '0.4.2',
+56 silly addNameRange     '0.4.3',
+56 silly addNameRange     '0.5.0',
+56 silly addNameRange     '0.5.1',
+56 silly addNameRange     '0.5.2',
+56 silly addNameRange     '0.5.3',
+56 silly addNameRange     '0.5.4',
+56 silly addNameRange     '0.6.0',
+56 silly addNameRange     '0.6.1',
+56 silly addNameRange     '0.6.2',
+56 silly addNameRange     '0.6.3',
+56 silly addNameRange     '0.6.4',
+56 silly addNameRange     '0.6.5',
+56 silly addNameRange     '0.7.0',
+56 silly addNameRange     '0.7.1',
+56 silly addNameRange     '0.7.2',
+56 silly addNameRange     '0.8.0',
+56 silly addNameRange     '0.9.0',
+56 silly addNameRange     '0.9.1',
+56 silly addNameRange     '0.9.2',
+56 silly addNameRange     '0.10.0',
+56 silly addNameRange     '0.11.0',
+56 silly addNameRange     '0.11.1',
+56 silly addNameRange     '0.1.1-rc5',
+56 silly addNameRange     '0.1.1-rc6' ] ]
+57 verbose addNamed grunt-contrib-jshint@0.10.0
+58 silly addNamed semver.valid 0.10.0
+59 silly addNamed semver.validRange 0.10.0
+60 silly cache afterAdd grunt-contrib-jshint@0.10.0
+61 verbose afterAdd /home/user/.npm/grunt-contrib-jshint/0.10.0/package/package.json not in flight; writing
+62 verbose afterAdd /home/user/.npm/grunt-contrib-jshint/0.10.0/package/package.json written
+63 silly install resolved [ { name: 'grunt-contrib-jshint',
+63 silly install resolved     description: 'Validate files with JSHint.',
+63 silly install resolved     version: '0.10.0',
+63 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-jshint',
+63 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+63 silly install resolved     repository:
+63 silly install resolved      { type: 'git',
+63 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-jshint.git' },
+63 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-jshint/issues' },
+63 silly install resolved     licenses: [ [Object] ],
+63 silly install resolved     engines: { node: '>= 0.8.0' },
+63 silly install resolved     scripts: { test: 'grunt test' },
+63 silly install resolved     dependencies: { jshint: '~2.5.0', hooker: '~0.2.3' },
+63 silly install resolved     devDependencies:
+63 silly install resolved      { 'grunt-contrib-nodeunit': '~0.3.1',
+63 silly install resolved        'grunt-contrib-internal': '~0.4.8',
+63 silly install resolved        grunt: '~0.4.0' },
+63 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+63 silly install resolved     keywords: [ 'gruntplugin' ],
+63 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+63 silly install resolved     _id: 'grunt-contrib-jshint@0.10.0',
+63 silly install resolved     dist:
+63 silly install resolved      { shasum: '57ebccca87e8f327af6645d8a3c586d4845e4d81',
+63 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz' },
+63 silly install resolved     _from: 'grunt-contrib-jshint@>=0.10.0 <0.11.0',
+63 silly install resolved     _npmVersion: '1.4.3',
+63 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+63 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+63 silly install resolved     directories: {},
+63 silly install resolved     _shasum: '57ebccca87e8f327af6645d8a3c586d4845e4d81',
+63 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz',
+63 silly install resolved     readme: 'ERROR: No README data found!' } ]
+64 info install grunt-contrib-jshint@0.10.0 into /home/user/web
+65 info installOne grunt-contrib-jshint@0.10.0
+66 verbose installOne of grunt-contrib-jshint to /home/user/web not in flight; installing
+67 verbose lock using /home/user/.npm/_locks/grunt-contrib-jshint-69c0f67ace7c5d21.lock for /home/user/web/node_modules/grunt-contrib-jshint
+68 silly install write writing grunt-contrib-jshint 0.10.0 to /home/user/web/node_modules/grunt-contrib-jshint
+69 silly cache addNamed cb grunt-contrib-jshint@0.10.0
+70 verbose unbuild node_modules/grunt-contrib-jshint
+71 silly gentlyRm /home/user/web/node_modules/grunt-contrib-jshint is being purged from base /home/user/web
+72 verbose gentlyRm don't care about contents; nuking /home/user/web/node_modules/grunt-contrib-jshint
+73 verbose tar unpack /home/user/.npm/grunt-contrib-jshint/0.10.0/package.tgz
+74 verbose tar unpacking to /home/user/web/node_modules/grunt-contrib-jshint
+75 silly gentlyRm /home/user/web/node_modules/grunt-contrib-jshint is being purged
+76 verbose gentlyRm don't care about contents; nuking /home/user/web/node_modules/grunt-contrib-jshint
+77 silly gunzTarPerm modes [ '755', '644' ]
+78 silly gunzTarPerm extractEntry package.json
+79 silly gunzTarPerm extractEntry README.md
+80 silly gunzTarPerm extractEntry LICENSE-MIT
+81 silly gunzTarPerm extractEntry tasks/jshint.js
+82 silly gunzTarPerm extractEntry tasks/lib/jshint.js
+83 info preinstall grunt-contrib-jshint@0.10.0
+84 silly prepareForInstallMany adding jshint@~2.5.0 from grunt-contrib-jshint dependencies
+85 silly prepareForInstallMany adding hooker@~0.2.3 from grunt-contrib-jshint dependencies
+86 silly cache add args [ 'jshint@~2.5.0', null ]
+87 verbose cache add spec jshint@~2.5.0
+88 silly cache add args [ 'hooker@~0.2.3', null ]
+89 verbose cache add spec hooker@~0.2.3
+90 silly cache add parsed spec { raw: 'jshint@~2.5.0',
+90 silly cache add   scope: null,
+90 silly cache add   name: 'jshint',
+90 silly cache add   rawSpec: '~2.5.0',
+90 silly cache add   spec: '>=2.5.0 <2.6.0',
+90 silly cache add   type: 'range' }
+91 verbose addNamed jshint@>=2.5.0 <2.6.0
+92 silly addNamed semver.valid null
+93 silly addNamed semver.validRange >=2.5.0 <2.6.0
+94 silly addNameRange { name: 'jshint', range: '>=2.5.0 <2.6.0', hasData: false }
+95 silly mapToRegistry name jshint
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry uri https://registry.npmjs.org/jshint
+99 verbose addNameRange registry:https://registry.npmjs.org/jshint not in flight; fetching
+100 silly cache add parsed spec { raw: 'hooker@~0.2.3',
+100 silly cache add   scope: null,
+100 silly cache add   name: 'hooker',
+100 silly cache add   rawSpec: '~0.2.3',
+100 silly cache add   spec: '>=0.2.3 <0.3.0',
+100 silly cache add   type: 'range' }
+101 verbose addNamed hooker@>=0.2.3 <0.3.0
+102 silly addNamed semver.valid null
+103 silly addNamed semver.validRange >=0.2.3 <0.3.0
+104 silly addNameRange { name: 'hooker', range: '>=0.2.3 <0.3.0', hasData: false }
+105 silly mapToRegistry name hooker
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry uri https://registry.npmjs.org/hooker
+109 verbose addNameRange registry:https://registry.npmjs.org/hooker not in flight; fetching
+110 verbose request uri https://registry.npmjs.org/hooker
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 18:43:52
+113 verbose etag "4DY34K38FHJYVVASIUV17HYVG"
+114 http request GET https://registry.npmjs.org/hooker
+115 verbose request uri https://registry.npmjs.org/jshint
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 18:43:52
+118 verbose etag "61G7VK8XDFYHELIZHQS9TNZ8N"
+119 http request GET https://registry.npmjs.org/jshint
+120 http 304 https://registry.npmjs.org/hooker
+121 silly get cb [ 304,
+121 silly get   { date: 'Thu, 02 Apr 2015 16:43:52 GMT',
+121 silly get     server: 'Apache',
+121 silly get     via: '1.1 varnish',
+121 silly get     'last-modified': 'Thu, 02 Apr 2015 16:43:52 GMT',
+121 silly get     'cache-control': 'max-age=60',
+121 silly get     etag: '"4DY34K38FHJYVVASIUV17HYVG"',
+121 silly get     age: '37',
+121 silly get     'x-served-by': 'cache-fra1238-FRA',
+121 silly get     'x-cache': 'HIT',
+121 silly get     'x-cache-hits': '1',
+121 silly get     'x-timer': 'S1427993032.940430,VS0,VE0',
+121 silly get     vary: 'Accept',
+121 silly get     'content-length': '0',
+121 silly get     'keep-alive': 'timeout=10, max=50',
+121 silly get     connection: 'Keep-Alive' } ]
+122 verbose etag https://registry.npmjs.org/hooker from cache
+123 verbose get saving hooker to /home/user/.npm/registry.npmjs.org/hooker/.cache.json
+124 http 304 https://registry.npmjs.org/jshint
+125 silly get cb [ 304,
+125 silly get   { date: 'Thu, 02 Apr 2015 16:43:52 GMT',
+125 silly get     server: 'Apache',
+125 silly get     via: '1.1 varnish',
+125 silly get     'last-modified': 'Thu, 02 Apr 2015 16:43:30 GMT',
+125 silly get     'cache-control': 'max-age=60',
+125 silly get     etag: '"61G7VK8XDFYHELIZHQS9TNZ8N"',
+125 silly get     age: '28',
+125 silly get     'x-served-by': 'cache-fra1227-FRA',
+125 silly get     'x-cache': 'HIT',
+125 silly get     'x-cache-hits': '2',
+125 silly get     'x-timer': 'S1427993032.945044,VS0,VE0',
+125 silly get     vary: 'Accept',
+125 silly get     'content-length': '0',
+125 silly get     'keep-alive': 'timeout=10, max=50',
+125 silly get     connection: 'Keep-Alive' } ]
+126 verbose etag https://registry.npmjs.org/jshint from cache
+127 verbose get saving jshint to /home/user/.npm/registry.npmjs.org/jshint/.cache.json
+128 silly addNameRange number 2 { name: 'hooker', range: '>=0.2.3 <0.3.0', hasData: true }
+129 silly addNameRange versions [ 'hooker', [ '0.2.3' ] ]
+130 verbose addNamed hooker@0.2.3
+131 silly addNamed semver.valid 0.2.3
+132 silly addNamed semver.validRange 0.2.3
+133 silly addNameRange number 2 { name: 'jshint', range: '>=2.5.0 <2.6.0', hasData: true }
+134 silly addNameRange versions [ 'jshint',
+134 silly addNameRange   [ '0.1.8',
+134 silly addNameRange     '0.1.9',
+134 silly addNameRange     '0.2.0',
+134 silly addNameRange     '0.2.1',
+134 silly addNameRange     '0.2.2',
+134 silly addNameRange     '0.2.3',
+134 silly addNameRange     '0.3.0',
+134 silly addNameRange     '0.3.1',
+134 silly addNameRange     '0.4.0',
+134 silly addNameRange     '0.5.0',
+134 silly addNameRange     '0.5.1',
+134 silly addNameRange     '0.5.2',
+134 silly addNameRange     '0.5.3',
+134 silly addNameRange     '0.5.4',
+134 silly addNameRange     '0.5.5',
+134 silly addNameRange     '0.5.6',
+134 silly addNameRange     '0.5.7',
+134 silly addNameRange     '0.5.8',
+134 silly addNameRange     '0.5.9',
+134 silly addNameRange     '0.6.0',
+134 silly addNameRange     '0.6.1',
+134 silly addNameRange     '0.6.2',
+134 silly addNameRange     '0.6.3',
+134 silly addNameRange     '0.7.0',
+134 silly addNameRange     '0.7.1',
+134 silly addNameRange     '0.7.2',
+134 silly addNameRange     '0.7.3',
+134 silly addNameRange     '0.8.0',
+134 silly addNameRange     '0.8.1',
+134 silly addNameRange     '0.8.2',
+134 silly addNameRange     '0.9.0',
+134 silly addNameRange     '0.9.1',
+134 silly addNameRange     '1.0.0',
+134 silly addNameRange     '1.1.0',
+134 silly addNameRange     '2.0.0',
+134 silly addNameRange     '2.0.1',
+134 silly addNameRange     '2.1.0',
+134 silly addNameRange     '2.1.1',
+134 silly addNameRange     '2.1.2',
+134 silly addNameRange     '2.1.3',
+134 silly addNameRange     '2.1.4',
+134 silly addNameRange     '2.1.5',
+134 silly addNameRange     '2.1.6',
+134 silly addNameRange     '2.1.7',
+134 silly addNameRange     '2.1.8',
+134 silly addNameRange     '2.1.9',
+134 silly addNameRange     '2.1.10',
+134 silly addNameRange     '2.1.11',
+134 silly addNameRange     '2.2.0',
+134 silly addNameRange     '2.3.0',
+134 silly addNameRange     '2.4.0',
+134 silly addNameRange     '2.4.1',
+134 silly addNameRange     '2.4.2',
+134 silly addNameRange     '2.4.3',
+134 silly addNameRange     '2.4.4',
+134 silly addNameRange     '2.5.0',
+134 silly addNameRange     '2.5.1',
+134 silly addNameRange     '2.5.2',
+134 silly addNameRange     '2.5.3',
+134 silly addNameRange     '2.5.4',
+134 silly addNameRange     '2.5.5',
+134 silly addNameRange     '2.5.6',
+134 silly addNameRange     '2.5.7',
+134 silly addNameRange     '2.5.8',
+134 silly addNameRange     '2.5.9',
+134 silly addNameRange     '2.5.10',
+134 silly addNameRange     '2.5.11',
+134 silly addNameRange     '2.6.0',
+134 silly addNameRange     '2.6.1',
+134 silly addNameRange     '2.6.2',
+134 silly addNameRange     '2.6.3' ] ]
+135 verbose addNamed jshint@2.5.11
+136 silly addNamed semver.valid 2.5.11
+137 silly addNamed semver.validRange 2.5.11
+138 silly cache afterAdd hooker@0.2.3
+139 verbose afterAdd /home/user/.npm/hooker/0.2.3/package/package.json not in flight; writing
+140 silly cache afterAdd jshint@2.5.11
+141 verbose afterAdd /home/user/.npm/jshint/2.5.11/package/package.json not in flight; writing
+142 verbose afterAdd /home/user/.npm/hooker/0.2.3/package/package.json written
+143 verbose afterAdd /home/user/.npm/jshint/2.5.11/package/package.json written
+144 silly install resolved [ { name: 'hooker',
+144 silly install resolved     description: 'Monkey-patch (hook) functions for debugging and stuff.',
+144 silly install resolved     version: '0.2.3',
+144 silly install resolved     homepage: 'http://github.com/cowboy/javascript-hooker',
+144 silly install resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+144 silly install resolved     repository:
+144 silly install resolved      { type: 'git',
+144 silly install resolved        url: 'git://github.com/cowboy/javascript-hooker.git' },
+144 silly install resolved     bugs: { url: 'https://github.com/cowboy/javascript-hooker/issues' },
+144 silly install resolved     licenses: [ [Object] ],
+144 silly install resolved     dependencies: {},
+144 silly install resolved     devDependencies: { grunt: '~0.2.1' },
+144 silly install resolved     keywords: [ 'patch', 'hook', 'function', 'debug', 'aop' ],
+144 silly install resolved     engines: { node: '*' },
+144 silly install resolved     main: 'lib/hooker',
+144 silly install resolved     scripts: { test: 'grunt test' },
+144 silly install resolved     _npmUser: { name: 'cowboy', email: 'cowboy@rj3.net' },
+144 silly install resolved     _id: 'hooker@0.2.3',
+144 silly install resolved     optionalDependencies: {},
+144 silly install resolved     _engineSupported: true,
+144 silly install resolved     _npmVersion: '1.1.0-2',
+144 silly install resolved     _nodeVersion: 'v0.6.8',
+144 silly install resolved     _defaultsLoaded: true,
+144 silly install resolved     dist:
+144 silly install resolved      { shasum: 'b834f723cc4a242aa65963459df6d984c5d3d959',
+144 silly install resolved        tarball: 'http://registry.npmjs.org/hooker/-/hooker-0.2.3.tgz' },
+144 silly install resolved     maintainers: [ [Object] ],
+144 silly install resolved     directories: {},
+144 silly install resolved     _shasum: 'b834f723cc4a242aa65963459df6d984c5d3d959',
+144 silly install resolved     _resolved: 'https://registry.npmjs.org/hooker/-/hooker-0.2.3.tgz',
+144 silly install resolved     _from: 'hooker@>=0.2.3 <0.3.0',
+144 silly install resolved     readme: 'ERROR: No README data found!' },
+144 silly install resolved   { name: 'jshint',
+144 silly install resolved     version: '2.5.11',
+144 silly install resolved     homepage: 'http://jshint.com/',
+144 silly install resolved     description: 'Static analysis tool for JavaScript',
+144 silly install resolved     author:
+144 silly install resolved      { name: 'Anton Kovalyov',
+144 silly install resolved        email: 'anton@kovalyov.net',
+144 silly install resolved        url: 'http://anton.kovalyov.net/' },
+144 silly install resolved     repository: { type: 'git', url: 'https://github.com/jshint/jshint.git' },
+144 silly install resolved     bugs: { url: 'https://github.com/jshint/jshint/issues' },
+144 silly install resolved     bin: { jshint: './bin/jshint' },
+144 silly install resolved     scripts:
+144 silly install resolved      { build: 'node bin/build',
+144 silly install resolved        coverage: 'istanbul -- cover ./node_modules/.bin/nodeunit tests/unit',
+144 silly install resolved        data: 'node scripts/generate-identifier-data',
+144 silly install resolved        pretest: 'jshint src',
+144 silly install resolved        test: 'nodeunit tests tests/regression tests/unit' },
+144 silly install resolved     main: './src/jshint.js',
+144 silly install resolved     dependencies:
+144 silly install resolved      { cli: '0.6.x',
+144 silly install resolved        'console-browserify': '1.1.x',
+144 silly install resolved        exit: '0.1.x',
+144 silly install resolved        htmlparser2: '3.8.x',
+144 silly install resolved        minimatch: '1.0.x',
+144 silly install resolved        shelljs: '0.3.x',
+144 silly install resolved        'strip-json-comments': '1.0.x',
+144 silly install resolved        underscore: '1.6.x' },
+144 silly install resolved     devDependencies:
+144 silly install resolved      { browserify: '6.x',
+144 silly install resolved        coveralls: '2.11.x',
+144 silly install resolved        istanbul: '0.3.x',
+144 silly install resolved        jshint: '2.5.x',
+144 silly install resolved        'mock-stdin': '0.3.x',
+144 silly install resolved        nodeunit: '0.9.x',
+144 silly install resolved        regenerate: '1.0.x',
+144 silly install resolved        sinon: '1.11.x',
+144 silly install resolved        'unicode-6.3.0': '0.1.x' },
+144 silly install resolved     licenses: [ [Object] ],
+144 silly install resolved     preferGlobal: true,
+144 silly install resolved     files: [ 'bin', 'data', 'dist', 'src' ],
+144 silly install resolved     gitHead: '29bda1104e117c34bdd7702854fbc40cd00e66ac',
+144 silly install resolved     _id: 'jshint@2.5.11',
+144 silly install resolved     _shasum: 'e2d95858bbb1aa78300108a2e81099fb095622e0',
+144 silly install resolved     _from: 'jshint@>=2.5.0 <2.6.0',
+144 silly install resolved     _npmVersion: '1.5.0-alpha-1',
+144 silly install resolved     _npmUser: { name: 'rwaldron', email: 'waldron.rick@gmail.com' },
+144 silly install resolved     maintainers: [ [Object], [Object] ],
+144 silly install resolved     dist:
+144 silly install resolved      { shasum: 'e2d95858bbb1aa78300108a2e81099fb095622e0',
+144 silly install resolved        tarball: 'http://registry.npmjs.org/jshint/-/jshint-2.5.11.tgz' },
+144 silly install resolved     directories: {},
+144 silly install resolved     _resolved: 'https://registry.npmjs.org/jshint/-/jshint-2.5.11.tgz',
+144 silly install resolved     readme: 'ERROR: No README data found!' } ]
+145 info install hooker@0.2.3 into /home/user/web/node_modules/grunt-contrib-jshint
+146 info install jshint@2.5.11 into /home/user/web/node_modules/grunt-contrib-jshint
+147 info installOne hooker@0.2.3
+148 verbose installOne of hooker to /home/user/web/node_modules/grunt-contrib-jshint not in flight; installing
+149 info installOne jshint@2.5.11
+150 verbose installOne of jshint to /home/user/web/node_modules/grunt-contrib-jshint not in flight; installing
+151 verbose lock using /home/user/.npm/_locks/hooker-625c7cfd94261044.lock for /home/user/web/node_modules/grunt-contrib-jshint/node_modules/hooker
+152 verbose lock using /home/user/.npm/_locks/jshint-a07c4d34abf9bbee.lock for /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint
+153 silly install write writing hooker 0.2.3 to /home/user/web/node_modules/grunt-contrib-jshint/node_modules/hooker
+154 silly cache addNamed cb hooker@0.2.3
+155 verbose unbuild node_modules/grunt-contrib-jshint/node_modules/hooker
+156 silly install write writing jshint 2.5.11 to /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint
+157 silly cache addNamed cb jshint@2.5.11
+158 verbose unbuild node_modules/grunt-contrib-jshint/node_modules/jshint
+159 silly gentlyRm /home/user/web/node_modules/grunt-contrib-jshint/node_modules/hooker is being purged from base /home/user/web
+160 verbose gentlyRm don't care about contents; nuking /home/user/web/node_modules/grunt-contrib-jshint/node_modules/hooker
+161 silly gentlyRm /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint is being purged from base /home/user/web
+162 verbose gentlyRm don't care about contents; nuking /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint
+163 verbose tar unpack /home/user/.npm/hooker/0.2.3/package.tgz
+164 verbose tar unpacking to /home/user/web/node_modules/grunt-contrib-jshint/node_modules/hooker
+165 silly gentlyRm /home/user/web/node_modules/grunt-contrib-jshint/node_modules/hooker is being purged
+166 verbose gentlyRm don't care about contents; nuking /home/user/web/node_modules/grunt-contrib-jshint/node_modules/hooker
+167 verbose tar unpack /home/user/.npm/jshint/2.5.11/package.tgz
+168 verbose tar unpacking to /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint
+169 silly gentlyRm /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint is being purged
+170 verbose gentlyRm don't care about contents; nuking /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint
+171 silly gunzTarPerm modes [ '755', '644' ]
+172 silly gunzTarPerm modes [ '755', '644' ]
+173 silly gunzTarPerm extractEntry child.js
+174 silly gunzTarPerm extractEntry package.json
+175 silly gunzTarPerm extractEntry dist/
+176 silly gunzTarPerm extractEntry dist/ba-hooker.js
+177 silly gunzTarPerm extractEntry README.md
+178 silly gunzTarPerm extractEntry bin/apply
+179 silly gunzTarPerm extractEntry bin/build
+180 silly gunzTarPerm extractEntry bin/changelog
+181 silly gunzTarPerm extractEntry dist/ba-hooker.min.js
+182 silly gunzTarPerm extractEntry grunt.js
+183 silly gunzTarPerm extractEntry lib/
+184 silly gunzTarPerm extractEntry lib/hooker.js
+185 silly gunzTarPerm extractEntry bin/jshint
+186 silly gunzTarPerm extractEntry bin/land
+187 silly gunzTarPerm extractEntry data/ascii-identifier-data.js
+188 silly gunzTarPerm extractEntry data/non-ascii-identifier-part-only.js
+189 silly gunzTarPerm extractEntry LICENSE-MIT
+190 silly gunzTarPerm extractEntry package.json
+191 silly gunzTarPerm extractEntry data/non-ascii-identifier-start.js
+192 silly gunzTarPerm extractEntry parent.js
+193 silly gunzTarPerm extractEntry README.md
+194 silly gunzTarPerm extractEntry dist/jshint-rhino.js
+195 silly gunzTarPerm extractEntry test/
+196 silly gunzTarPerm extractEntry test/hooker_test.js
+197 silly gunzTarPerm extractEntry dist/jshint.js
+198 info preinstall hooker@0.2.3
+199 silly install resolved []
+200 verbose about to build /home/user/web/node_modules/grunt-contrib-jshint/node_modules/hooker
+201 info build /home/user/web/node_modules/grunt-contrib-jshint/node_modules/hooker
+202 verbose linkStuff [ false,
+202 verbose linkStuff   false,
+202 verbose linkStuff   false,
+202 verbose linkStuff   '/home/user/web/node_modules/grunt-contrib-jshint/node_modules' ]
+203 info linkStuff hooker@0.2.3
+204 verbose linkBins hooker@0.2.3
+205 verbose linkMans hooker@0.2.3
+206 verbose rebuildBundles hooker@0.2.3
+207 info install hooker@0.2.3
+208 info postinstall hooker@0.2.3
+209 verbose unlock done using /home/user/.npm/_locks/hooker-625c7cfd94261044.lock for /home/user/web/node_modules/grunt-contrib-jshint/node_modules/hooker
+210 silly gunzTarPerm extractEntry src/cli.js
+211 silly gunzTarPerm extractEntry src/lex.js
+212 silly gunzTarPerm extractEntry src/messages.js
+213 silly gunzTarPerm extractEntry src/name-stack.js
+214 silly gunzTarPerm extractEntry src/options.js
+215 silly gunzTarPerm extractEntry src/jshint.js
+216 silly gunzTarPerm extractEntry src/reg.js
+217 silly gunzTarPerm extractEntry src/style.js
+218 silly gunzTarPerm extractEntry src/state.js
+219 silly gunzTarPerm extractEntry src/vars.js
+220 silly gunzTarPerm extractEntry src/reporters/checkstyle.js
+221 silly gunzTarPerm extractEntry src/reporters/default.js
+222 silly gunzTarPerm extractEntry src/reporters/jslint_xml.js
+223 silly gunzTarPerm extractEntry src/reporters/non_error.js
+224 silly gunzTarPerm extractEntry src/reporters/unix.js
+225 silly gunzTarPerm extractEntry src/platforms/rhino.js
+226 info preinstall jshint@2.5.11
+227 silly prepareForInstallMany adding cli@0.6.x from jshint dependencies
+228 silly prepareForInstallMany adding console-browserify@1.1.x from jshint dependencies
+229 silly prepareForInstallMany adding exit@0.1.x from jshint dependencies
+230 silly prepareForInstallMany adding htmlparser2@3.8.x from jshint dependencies
+231 silly prepareForInstallMany adding minimatch@1.0.x from jshint dependencies
+232 silly prepareForInstallMany adding shelljs@0.3.x from jshint dependencies
+233 silly prepareForInstallMany adding strip-json-comments@1.0.x from jshint dependencies
+234 silly prepareForInstallMany adding underscore@1.6.x from jshint dependencies
+235 silly cache add args [ 'cli@0.6.x', null ]
+236 verbose cache add spec cli@0.6.x
+237 silly cache add args [ 'console-browserify@1.1.x', null ]
+238 verbose cache add spec console-browserify@1.1.x
+239 silly cache add parsed spec { raw: 'cli@0.6.x',
+239 silly cache add   scope: null,
+239 silly cache add   name: 'cli',
+239 silly cache add   rawSpec: '0.6.x',
+239 silly cache add   spec: '>=0.6.0 <0.7.0',
+239 silly cache add   type: 'range' }
+240 verbose addNamed cli@>=0.6.0 <0.7.0
+241 silly addNamed semver.valid null
+242 silly addNamed semver.validRange >=0.6.0 <0.7.0
+243 silly addNameRange { name: 'cli', range: '>=0.6.0 <0.7.0', hasData: false }
+244 silly mapToRegistry name cli
+245 silly mapToRegistry using default registry
+246 silly mapToRegistry registry https://registry.npmjs.org/
+247 silly mapToRegistry uri https://registry.npmjs.org/cli
+248 verbose addNameRange registry:https://registry.npmjs.org/cli not in flight; fetching
+249 silly cache add parsed spec { raw: 'console-browserify@1.1.x',
+249 silly cache add   scope: null,
+249 silly cache add   name: 'console-browserify',
+249 silly cache add   rawSpec: '1.1.x',
+249 silly cache add   spec: '>=1.1.0 <1.2.0',
+249 silly cache add   type: 'range' }
+250 verbose addNamed console-browserify@>=1.1.0 <1.2.0
+251 silly addNamed semver.valid null
+252 silly addNamed semver.validRange >=1.1.0 <1.2.0
+253 silly addNameRange { name: 'console-browserify',
+253 silly addNameRange   range: '>=1.1.0 <1.2.0',
+253 silly addNameRange   hasData: false }
+254 silly mapToRegistry name console-browserify
+255 silly mapToRegistry using default registry
+256 silly mapToRegistry registry https://registry.npmjs.org/
+257 silly mapToRegistry uri https://registry.npmjs.org/console-browserify
+258 verbose addNameRange registry:https://registry.npmjs.org/console-browserify not in flight; fetching
+259 silly cache add args [ 'exit@0.1.x', null ]
+260 verbose cache add spec exit@0.1.x
+261 silly cache add parsed spec { raw: 'exit@0.1.x',
+261 silly cache add   scope: null,
+261 silly cache add   name: 'exit',
+261 silly cache add   rawSpec: '0.1.x',
+261 silly cache add   spec: '>=0.1.0 <0.2.0',
+261 silly cache add   type: 'range' }
+262 verbose addNamed exit@>=0.1.0 <0.2.0
+263 silly addNamed semver.valid null
+264 silly addNamed semver.validRange >=0.1.0 <0.2.0
+265 silly addNameRange { name: 'exit', range: '>=0.1.0 <0.2.0', hasData: false }
+266 silly mapToRegistry name exit
+267 silly mapToRegistry using default registry
+268 silly mapToRegistry registry https://registry.npmjs.org/
+269 silly mapToRegistry uri https://registry.npmjs.org/exit
+270 verbose addNameRange registry:https://registry.npmjs.org/exit not in flight; fetching
+271 silly cache add args [ 'htmlparser2@3.8.x', null ]
+272 verbose cache add spec htmlparser2@3.8.x
+273 silly cache add parsed spec { raw: 'htmlparser2@3.8.x',
+273 silly cache add   scope: null,
+273 silly cache add   name: 'htmlparser2',
+273 silly cache add   rawSpec: '3.8.x',
+273 silly cache add   spec: '>=3.8.0 <3.9.0',
+273 silly cache add   type: 'range' }
+274 verbose addNamed htmlparser2@>=3.8.0 <3.9.0
+275 silly addNamed semver.valid null
+276 silly addNamed semver.validRange >=3.8.0 <3.9.0
+277 silly addNameRange { name: 'htmlparser2', range: '>=3.8.0 <3.9.0', hasData: false }
+278 silly mapToRegistry name htmlparser2
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry uri https://registry.npmjs.org/htmlparser2
+282 verbose addNameRange registry:https://registry.npmjs.org/htmlparser2 not in flight; fetching
+283 silly cache add args [ 'minimatch@1.0.x', null ]
+284 verbose cache add spec minimatch@1.0.x
+285 silly cache add parsed spec { raw: 'minimatch@1.0.x',
+285 silly cache add   scope: null,
+285 silly cache add   name: 'minimatch',
+285 silly cache add   rawSpec: '1.0.x',
+285 silly cache add   spec: '>=1.0.0 <1.1.0',
+285 silly cache add   type: 'range' }
+286 verbose addNamed minimatch@>=1.0.0 <1.1.0
+287 silly addNamed semver.valid null
+288 silly addNamed semver.validRange >=1.0.0 <1.1.0
+289 silly addNameRange { name: 'minimatch', range: '>=1.0.0 <1.1.0', hasData: false }
+290 silly mapToRegistry name minimatch
+291 silly mapToRegistry using default registry
+292 silly mapToRegistry registry https://registry.npmjs.org/
+293 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+294 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+295 silly cache add args [ 'shelljs@0.3.x', null ]
+296 verbose cache add spec shelljs@0.3.x
+297 silly cache add parsed spec { raw: 'shelljs@0.3.x',
+297 silly cache add   scope: null,
+297 silly cache add   name: 'shelljs',
+297 silly cache add   rawSpec: '0.3.x',
+297 silly cache add   spec: '>=0.3.0 <0.4.0',
+297 silly cache add   type: 'range' }
+298 verbose addNamed shelljs@>=0.3.0 <0.4.0
+299 silly addNamed semver.valid null
+300 silly addNamed semver.validRange >=0.3.0 <0.4.0
+301 silly addNameRange { name: 'shelljs', range: '>=0.3.0 <0.4.0', hasData: false }
+302 silly mapToRegistry name shelljs
+303 silly mapToRegistry using default registry
+304 silly mapToRegistry registry https://registry.npmjs.org/
+305 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+306 verbose addNameRange registry:https://registry.npmjs.org/shelljs not in flight; fetching
+307 silly cache add args [ 'strip-json-comments@1.0.x', null ]
+308 verbose cache add spec strip-json-comments@1.0.x
+309 silly cache add parsed spec { raw: 'strip-json-comments@1.0.x',
+309 silly cache add   scope: null,
+309 silly cache add   name: 'strip-json-comments',
+309 silly cache add   rawSpec: '1.0.x',
+309 silly cache add   spec: '>=1.0.0 <1.1.0',
+309 silly cache add   type: 'range' }
+310 verbose addNamed strip-json-comments@>=1.0.0 <1.1.0
+311 silly addNamed semver.valid null
+312 silly addNamed semver.validRange >=1.0.0 <1.1.0
+313 silly addNameRange { name: 'strip-json-comments',
+313 silly addNameRange   range: '>=1.0.0 <1.1.0',
+313 silly addNameRange   hasData: false }
+314 silly mapToRegistry name strip-json-comments
+315 silly mapToRegistry using default registry
+316 silly mapToRegistry registry https://registry.npmjs.org/
+317 silly mapToRegistry uri https://registry.npmjs.org/strip-json-comments
+318 verbose addNameRange registry:https://registry.npmjs.org/strip-json-comments not in flight; fetching
+319 silly cache add args [ 'underscore@1.6.x', null ]
+320 verbose cache add spec underscore@1.6.x
+321 silly cache add parsed spec { raw: 'underscore@1.6.x',
+321 silly cache add   scope: null,
+321 silly cache add   name: 'underscore',
+321 silly cache add   rawSpec: '1.6.x',
+321 silly cache add   spec: '>=1.6.0 <1.7.0',
+321 silly cache add   type: 'range' }
+322 verbose addNamed underscore@>=1.6.0 <1.7.0
+323 silly addNamed semver.valid null
+324 silly addNamed semver.validRange >=1.6.0 <1.7.0
+325 silly addNameRange { name: 'underscore', range: '>=1.6.0 <1.7.0', hasData: false }
+326 silly mapToRegistry name underscore
+327 silly mapToRegistry using default registry
+328 silly mapToRegistry registry https://registry.npmjs.org/
+329 silly mapToRegistry uri https://registry.npmjs.org/underscore
+330 verbose addNameRange registry:https://registry.npmjs.org/underscore not in flight; fetching
+331 verbose request uri https://registry.npmjs.org/cli
+332 verbose request no auth needed
+333 info attempt registry request try #1 at 18:43:53
+334 verbose etag "4APWTK7VO09GRZ8TT16WZ9CGH"
+335 http request GET https://registry.npmjs.org/cli
+336 verbose request uri https://registry.npmjs.org/console-browserify
+337 verbose request no auth needed
+338 info attempt registry request try #1 at 18:43:53
+339 verbose etag "9P4UVMYNOTKBMJP46LG2SRWG"
+340 http request GET https://registry.npmjs.org/console-browserify
+341 verbose request uri https://registry.npmjs.org/minimatch
+342 verbose request no auth needed
+343 info attempt registry request try #1 at 18:43:53
+344 verbose etag "4UBG29Z6A42JO59G4MSTT4HR1"
+345 http request GET https://registry.npmjs.org/minimatch
+346 verbose request uri https://registry.npmjs.org/htmlparser2
+347 verbose request no auth needed
+348 info attempt registry request try #1 at 18:43:53
+349 verbose etag "4YWMR4R07CIGSGFNA8TYQL4PH"
+350 http request GET https://registry.npmjs.org/htmlparser2
+351 verbose request uri https://registry.npmjs.org/exit
+352 verbose request no auth needed
+353 info attempt registry request try #1 at 18:43:53
+354 verbose etag "A8RSV0CIFC1BGP86QLDRYT1U1"
+355 http request GET https://registry.npmjs.org/exit
+356 verbose request uri https://registry.npmjs.org/strip-json-comments
+357 verbose request no auth needed
+358 info attempt registry request try #1 at 18:43:53
+359 verbose etag "18AM02OC56FGV63KROIALAXYJ"
+360 http request GET https://registry.npmjs.org/strip-json-comments
+361 verbose request uri https://registry.npmjs.org/shelljs
+362 verbose request no auth needed
+363 info attempt registry request try #1 at 18:43:53
+364 verbose etag "A86DYLP9II9SI7ELW47AOAZMW"
+365 http request GET https://registry.npmjs.org/shelljs
+366 verbose request uri https://registry.npmjs.org/underscore
+367 verbose request no auth needed
+368 info attempt registry request try #1 at 18:43:53
+369 verbose etag "3VIG6P03O33HP7UVJ0RFVX56"
+370 http request GET https://registry.npmjs.org/underscore
+371 http 304 https://registry.npmjs.org/cli
+372 silly get cb [ 304,
+372 silly get   { date: 'Thu, 02 Apr 2015 16:43:53 GMT',
+372 silly get     server: 'Apache',
+372 silly get     via: '1.1 varnish',
+372 silly get     'last-modified': 'Thu, 02 Apr 2015 16:43:53 GMT',
+372 silly get     'cache-control': 'max-age=60',
+372 silly get     etag: '"4APWTK7VO09GRZ8TT16WZ9CGH"',
+372 silly get     age: '36',
+372 silly get     'x-served-by': 'cache-fra1232-FRA',
+372 silly get     'x-cache': 'HIT',
+372 silly get     'x-cache-hits': '1',
+372 silly get     'x-timer': 'S1427993033.334730,VS0,VE0',
+372 silly get     vary: 'Accept',
+372 silly get     'content-length': '0',
+372 silly get     'keep-alive': 'timeout=10, max=50',
+372 silly get     connection: 'Keep-Alive' } ]
+373 verbose etag https://registry.npmjs.org/cli from cache
+374 verbose get saving cli to /home/user/.npm/registry.npmjs.org/cli/.cache.json
+375 http 304 https://registry.npmjs.org/console-browserify
+376 silly get cb [ 304,
+376 silly get   { date: 'Thu, 02 Apr 2015 16:43:53 GMT',
+376 silly get     server: 'Apache',
+376 silly get     via: '1.1 varnish',
+376 silly get     'last-modified': 'Thu, 02 Apr 2015 16:43:53 GMT',
+376 silly get     'cache-control': 'max-age=60',
+376 silly get     etag: '"9P4UVMYNOTKBMJP46LG2SRWG"',
+376 silly get     age: '59',
+376 silly get     'x-served-by': 'cache-fra1241-FRA',
+376 silly get     'x-cache': 'HIT',
+376 silly get     'x-cache-hits': '1',
+376 silly get     'x-timer': 'S1427993033.346331,VS0,VE0',
+376 silly get     vary: 'Accept',
+376 silly get     'content-length': '0',
+376 silly get     'keep-alive': 'timeout=10, max=50',
+376 silly get     connection: 'Keep-Alive' } ]
+377 verbose etag https://registry.npmjs.org/console-browserify from cache
+378 verbose get saving console-browserify to /home/user/.npm/registry.npmjs.org/console-browserify/.cache.json
+379 silly addNameRange number 2 { name: 'console-browserify',
+379 silly addNameRange   range: '>=1.1.0 <1.2.0',
+379 silly addNameRange   hasData: true }
+380 silly addNameRange versions [ 'console-browserify',
+380 silly addNameRange   [ '0.1.0',
+380 silly addNameRange     '0.1.1',
+380 silly addNameRange     '0.1.2',
+380 silly addNameRange     '0.1.3',
+380 silly addNameRange     '0.1.4',
+380 silly addNameRange     '0.1.5',
+380 silly addNameRange     '0.1.6',
+380 silly addNameRange     '1.0.1',
+380 silly addNameRange     '1.0.2',
+380 silly addNameRange     '1.0.3',
+380 silly addNameRange     '1.1.0' ] ]
+381 verbose addNamed console-browserify@1.1.0
+382 silly addNamed semver.valid 1.1.0
+383 silly addNamed semver.validRange 1.1.0
+384 silly addNameRange number 2 { name: 'cli', range: '>=0.6.0 <0.7.0', hasData: true }
+385 silly addNameRange versions [ 'cli',
+385 silly addNameRange   [ '0.1.0',
+385 silly addNameRange     '0.1.1',
+385 silly addNameRange     '0.1.3',
+385 silly addNameRange     '0.1.4',
+385 silly addNameRange     '0.1.5',
+385 silly addNameRange     '0.1.6',
+385 silly addNameRange     '0.1.7',
+385 silly addNameRange     '0.1.8',
+385 silly addNameRange     '0.1.9',
+385 silly addNameRange     '0.2.0',
+385 silly addNameRange     '0.2.1-1',
+385 silly addNameRange     '0.2.2-1',
+385 silly addNameRange     '0.2.3-1',
+385 silly addNameRange     '0.2.3-2',
+385 silly addNameRange     '0.2.3-3',
+385 silly addNameRange     '0.2.3-4',
+385 silly addNameRange     '0.2.3-5',
+385 silly addNameRange     '0.2.4-1',
+385 silly addNameRange     '0.2.4-2',
+385 silly addNameRange     '0.2.5',
+385 silly addNameRange     '0.2.6',
+385 silly addNameRange     '0.2.7',
+385 silly addNameRange     '0.2.8',
+385 silly addNameRange     '0.3.0',
+385 silly addNameRange     '0.3.1',
+385 silly addNameRange     '0.3.2',
+385 silly addNameRange     '0.3.3',
+385 silly addNameRange     '0.3.4',
+385 silly addNameRange     '0.3.5',
+385 silly addNameRange     '0.3.6',
+385 silly addNameRange     '0.3.7',
+385 silly addNameRange     '0.3.8',
+385 silly addNameRange     '0.3.9',
+385 silly addNameRange     '0.4.0',
+385 silly addNameRange     '0.4.1',
+385 silly addNameRange     '0.4.2',
+385 silly addNameRange     '0.4.3',
+385 silly addNameRange     '0.4.4',
+385 silly addNameRange     '0.4.4-1',
+385 silly addNameRange     '0.4.4-2',
+385 silly addNameRange     '0.4.5',
+385 silly addNameRange     '0.5.0',
+385 silly addNameRange     '0.6.0',
+385 silly addNameRange     '0.6.2',
+385 silly addNameRange     '0.6.3',
+385 silly addNameRange     '0.6.4',
+385 silly addNameRange     '0.6.5',
+385 silly addNameRange     '0.6.6' ] ]
+386 verbose addNamed cli@0.6.6
+387 silly addNamed semver.valid 0.6.6
+388 silly addNamed semver.validRange 0.6.6
+389 silly cache afterAdd cli@0.6.6
+390 verbose afterAdd /home/user/.npm/cli/0.6.6/package/package.json not in flight; writing
+391 silly cache afterAdd console-browserify@1.1.0
+392 verbose afterAdd /home/user/.npm/console-browserify/1.1.0/package/package.json not in flight; writing
+393 verbose afterAdd /home/user/.npm/cli/0.6.6/package/package.json written
+394 verbose afterAdd /home/user/.npm/console-browserify/1.1.0/package/package.json written
+395 http 304 https://registry.npmjs.org/htmlparser2
+396 silly get cb [ 304,
+396 silly get   { date: 'Thu, 02 Apr 2015 16:43:53 GMT',
+396 silly get     server: 'Apache',
+396 silly get     via: '1.1 varnish',
+396 silly get     'last-modified': 'Thu, 02 Apr 2015 16:43:53 GMT',
+396 silly get     'cache-control': 'max-age=60',
+396 silly get     etag: '"4YWMR4R07CIGSGFNA8TYQL4PH"',
+396 silly get     age: '37',
+396 silly get     'x-served-by': 'cache-fra1221-FRA',
+396 silly get     'x-cache': 'HIT',
+396 silly get     'x-cache-hits': '1',
+396 silly get     'x-timer': 'S1427993033.375129,VS0,VE0',
+396 silly get     vary: 'Accept',
+396 silly get     'content-length': '0',
+396 silly get     'keep-alive': 'timeout=10, max=50',
+396 silly get     connection: 'Keep-Alive' } ]
+397 verbose etag https://registry.npmjs.org/htmlparser2 from cache
+398 verbose get saving htmlparser2 to /home/user/.npm/registry.npmjs.org/htmlparser2/.cache.json
+399 silly addNameRange number 2 { name: 'htmlparser2', range: '>=3.8.0 <3.9.0', hasData: true }
+400 silly addNameRange versions [ 'htmlparser2',
+400 silly addNameRange   [ '1.0.0',
+400 silly addNameRange     '1.1.0',
+400 silly addNameRange     '1.5.0',
+400 silly addNameRange     '2.0.0',
+400 silly addNameRange     '2.0.1',
+400 silly addNameRange     '2.1.0',
+400 silly addNameRange     '2.1.1',
+400 silly addNameRange     '2.1.2',
+400 silly addNameRange     '2.1.3',
+400 silly addNameRange     '2.2.0',
+400 silly addNameRange     '2.2.2',
+400 silly addNameRange     '2.2.3',
+400 silly addNameRange     '2.2.4',
+400 silly addNameRange     '2.2.5',
+400 silly addNameRange     '2.2.6',
+400 silly addNameRange     '2.2.7',
+400 silly addNameRange     '2.2.8',
+400 silly addNameRange     '2.2.9',
+400 silly addNameRange     '2.3.0',
+400 silly addNameRange     '2.5.0',
+400 silly addNameRange     '2.5.1',
+400 silly addNameRange     '2.5.2',
+400 silly addNameRange     '2.6.0',
+400 silly addNameRange     '3.0.0',
+400 silly addNameRange     '3.0.1',
+400 silly addNameRange     '3.0.2',
+400 silly addNameRange     '3.0.3',
+400 silly addNameRange     '3.0.4',
+400 silly addNameRange     '3.0.5',
+400 silly addNameRange     '3.1.1',
+400 silly addNameRange     '3.1.2',
+400 silly addNameRange     '3.1.3',
+400 silly addNameRange     '3.1.4',
+400 silly addNameRange     '3.1.5',
+400 silly addNameRange     '3.1.6',
+400 silly addNameRange     '3.2.0',
+400 silly addNameRange     '3.2.1',
+400 silly addNameRange     '3.2.2',
+400 silly addNameRange     '3.2.3',
+400 silly addNameRange     '3.2.4',
+400 silly addNameRange     '3.2.5',
+400 silly addNameRange     '3.3.0',
+400 silly addNameRange     '3.4.0',
+400 silly addNameRange     '3.5.0',
+400 silly addNameRange     '3.5.1',
+400 silly addNameRange     '3.6.0',
+400 silly addNameRange     '3.7.0',
+400 silly addNameRange     '3.7.1',
+400 silly addNameRange     '3.7.2',
+400 silly addNameRange     '3.7.3',
+400 silly addNameRange     '3.8.0',
+400 silly addNameRange     '3.8.1',
+400 silly addNameRange     '3.8.2' ] ]
+401 verbose addNamed htmlparser2@3.8.2
+402 silly addNamed semver.valid 3.8.2
+403 silly addNamed semver.validRange 3.8.2
+404 silly cache afterAdd htmlparser2@3.8.2
+405 verbose afterAdd /home/user/.npm/htmlparser2/3.8.2/package/package.json not in flight; writing
+406 verbose afterAdd /home/user/.npm/htmlparser2/3.8.2/package/package.json written
+407 http 304 https://registry.npmjs.org/minimatch
+408 silly get cb [ 304,
+408 silly get   { date: 'Thu, 02 Apr 2015 16:43:53 GMT',
+408 silly get     server: 'Apache',
+408 silly get     via: '1.1 varnish',
+408 silly get     'last-modified': 'Thu, 02 Apr 2015 16:43:10 GMT',
+408 silly get     'cache-control': 'max-age=60',
+408 silly get     etag: '"4UBG29Z6A42JO59G4MSTT4HR1"',
+408 silly get     age: '60',
+408 silly get     'x-served-by': 'cache-fra1234-FRA',
+408 silly get     'x-cache': 'HIT',
+408 silly get     'x-cache-hits': '10',
+408 silly get     'x-timer': 'S1427993033.386776,VS0,VE0',
+408 silly get     vary: 'Accept',
+408 silly get     'content-length': '0',
+408 silly get     'keep-alive': 'timeout=10, max=50',
+408 silly get     connection: 'Keep-Alive' } ]
+409 verbose etag https://registry.npmjs.org/minimatch from cache
+410 verbose get saving minimatch to /home/user/.npm/registry.npmjs.org/minimatch/.cache.json
+411 http 304 https://registry.npmjs.org/strip-json-comments
+412 silly get cb [ 304,
+412 silly get   { date: 'Thu, 02 Apr 2015 16:43:53 GMT',
+412 silly get     server: 'Apache',
+412 silly get     via: '1.1 varnish',
+412 silly get     'last-modified': 'Thu, 02 Apr 2015 16:43:53 GMT',
+412 silly get     'cache-control': 'max-age=60',
+412 silly get     etag: '"18AM02OC56FGV63KROIALAXYJ"',
+412 silly get     age: '49',
+412 silly get     'x-served-by': 'cache-fra1230-FRA',
+412 silly get     'x-cache': 'HIT',
+412 silly get     'x-cache-hits': '1',
+412 silly get     'x-timer': 'S1427993033.387169,VS0,VE0',
+412 silly get     vary: 'Accept',
+412 silly get     'content-length': '0',
+412 silly get     'keep-alive': 'timeout=10, max=50',
+412 silly get     connection: 'Keep-Alive' } ]
+413 verbose etag https://registry.npmjs.org/strip-json-comments from cache
+414 verbose get saving strip-json-comments to /home/user/.npm/registry.npmjs.org/strip-json-comments/.cache.json
+415 http 304 https://registry.npmjs.org/underscore
+416 silly get cb [ 304,
+416 silly get   { date: 'Thu, 02 Apr 2015 16:43:53 GMT',
+416 silly get     server: 'Apache',
+416 silly get     via: '1.1 varnish',
+416 silly get     'last-modified': 'Thu, 02 Apr 2015 16:43:53 GMT',
+416 silly get     'cache-control': 'max-age=60',
+416 silly get     etag: '"3VIG6P03O33HP7UVJ0RFVX56"',
+416 silly get     age: '49',
+416 silly get     'x-served-by': 'cache-fra1242-FRA',
+416 silly get     'x-cache': 'HIT',
+416 silly get     'x-cache-hits': '1',
+416 silly get     'x-timer': 'S1427993033.391274,VS0,VE0',
+416 silly get     vary: 'Accept',
+416 silly get     'content-length': '0',
+416 silly get     'keep-alive': 'timeout=10, max=50',
+416 silly get     connection: 'Keep-Alive' } ]
+417 verbose etag https://registry.npmjs.org/underscore from cache
+418 verbose get saving underscore to /home/user/.npm/registry.npmjs.org/underscore/.cache.json
+419 silly addNameRange number 2 { name: 'minimatch', range: '>=1.0.0 <1.1.0', hasData: true }
+420 silly addNameRange versions [ 'minimatch',
+420 silly addNameRange   [ '0.0.1',
+420 silly addNameRange     '0.0.2',
+420 silly addNameRange     '0.0.4',
+420 silly addNameRange     '0.0.5',
+420 silly addNameRange     '0.1.1',
+420 silly addNameRange     '0.1.2',
+420 silly addNameRange     '0.1.3',
+420 silly addNameRange     '0.1.4',
+420 silly addNameRange     '0.1.5',
+420 silly addNameRange     '0.2.0',
+420 silly addNameRange     '0.2.2',
+420 silly addNameRange     '0.2.3',
+420 silly addNameRange     '0.2.4',
+420 silly addNameRange     '0.2.5',
+420 silly addNameRange     '0.2.6',
+420 silly addNameRange     '0.2.7',
+420 silly addNameRange     '0.2.8',
+420 silly addNameRange     '0.2.9',
+420 silly addNameRange     '0.2.10',
+420 silly addNameRange     '0.2.11',
+420 silly addNameRange     '0.2.12',
+420 silly addNameRange     '0.2.13',
+420 silly addNameRange     '0.2.14',
+420 silly addNameRange     '0.3.0',
+420 silly addNameRange     '0.4.0',
+420 silly addNameRange     '1.0.0',
+420 silly addNameRange     '2.0.0',
+420 silly addNameRange     '2.0.1',
+420 silly addNameRange     '2.0.2',
+420 silly addNameRange     '2.0.3',
+420 silly addNameRange     '2.0.4' ] ]
+421 verbose addNamed minimatch@1.0.0
+422 silly addNamed semver.valid 1.0.0
+423 silly addNamed semver.validRange 1.0.0
+424 http 304 https://registry.npmjs.org/exit
+425 silly get cb [ 304,
+425 silly get   { date: 'Thu, 02 Apr 2015 16:43:53 GMT',
+425 silly get     server: 'Apache',
+425 silly get     via: '1.1 varnish',
+425 silly get     'last-modified': 'Thu, 02 Apr 2015 16:43:40 GMT',
+425 silly get     'cache-control': 'max-age=60',
+425 silly get     etag: '"A8RSV0CIFC1BGP86QLDRYT1U1"',
+425 silly get     age: '37',
+425 silly get     'x-served-by': 'cache-fra1235-FRA',
+425 silly get     'x-cache': 'HIT',
+425 silly get     'x-cache-hits': '3',
+425 silly get     'x-timer': 'S1427993033.391878,VS0,VE0',
+425 silly get     vary: 'Accept',
+425 silly get     'content-length': '0',
+425 silly get     'keep-alive': 'timeout=10, max=50',
+425 silly get     connection: 'Keep-Alive' } ]
+426 verbose etag https://registry.npmjs.org/exit from cache
+427 verbose get saving exit to /home/user/.npm/registry.npmjs.org/exit/.cache.json
+428 http 304 https://registry.npmjs.org/shelljs
+429 silly get cb [ 304,
+429 silly get   { date: 'Thu, 02 Apr 2015 16:43:53 GMT',
+429 silly get     server: 'Apache',
+429 silly get     via: '1.1 varnish',
+429 silly get     'last-modified': 'Thu, 02 Apr 2015 16:43:53 GMT',
+429 silly get     'cache-control': 'max-age=60',
+429 silly get     etag: '"A86DYLP9II9SI7ELW47AOAZMW"',
+429 silly get     age: '23',
+429 silly get     'x-served-by': 'cache-fra1231-FRA',
+429 silly get     'x-cache': 'HIT',
+429 silly get     'x-cache-hits': '1',
+429 silly get     'x-timer': 'S1427993033.391231,VS0,VE0',
+429 silly get     vary: 'Accept',
+429 silly get     'content-length': '0',
+429 silly get     'keep-alive': 'timeout=10, max=50',
+429 silly get     connection: 'Keep-Alive' } ]
+430 verbose etag https://registry.npmjs.org/shelljs from cache
+431 verbose get saving shelljs to /home/user/.npm/registry.npmjs.org/shelljs/.cache.json
+432 silly mapToRegistry name minimatch
+433 silly mapToRegistry using default registry
+434 silly mapToRegistry registry https://registry.npmjs.org/
+435 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+436 verbose addRemoteTarball https://registry.npmjs.org/minimatch/-/minimatch-1.0.0.tgz not in flight; adding
+437 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimatch/-/minimatch-1.0.0.tgz',
+437 verbose addRemoteTarball   'e0dd2120b49e1b724ce8d714c520822a9438576d' ]
+438 silly addNameRange number 2 { name: 'strip-json-comments',
+438 silly addNameRange   range: '>=1.0.0 <1.1.0',
+438 silly addNameRange   hasData: true }
+439 silly addNameRange versions [ 'strip-json-comments',
+439 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '1.0.0', '1.0.1', '1.0.2' ] ]
+440 verbose addNamed strip-json-comments@1.0.2
+441 silly addNamed semver.valid 1.0.2
+442 silly addNamed semver.validRange 1.0.2
+443 silly addNameRange number 2 { name: 'shelljs', range: '>=0.3.0 <0.4.0', hasData: true }
+444 silly addNameRange versions [ 'shelljs',
+444 silly addNameRange   [ '0.0.1',
+444 silly addNameRange     '0.0.2',
+444 silly addNameRange     '0.0.3',
+444 silly addNameRange     '0.0.4',
+444 silly addNameRange     '0.0.5',
+444 silly addNameRange     '0.0.6',
+444 silly addNameRange     '0.0.7',
+444 silly addNameRange     '0.0.8',
+444 silly addNameRange     '0.0.9',
+444 silly addNameRange     '0.1.0',
+444 silly addNameRange     '0.1.1',
+444 silly addNameRange     '0.1.2',
+444 silly addNameRange     '0.1.3',
+444 silly addNameRange     '0.1.4',
+444 silly addNameRange     '0.2.0',
+444 silly addNameRange     '0.2.1',
+444 silly addNameRange     '0.2.2',
+444 silly addNameRange     '0.2.3',
+444 silly addNameRange     '0.2.4',
+444 silly addNameRange     '0.2.5',
+444 silly addNameRange     '0.2.6',
+444 silly addNameRange     '0.3.0',
+444 silly addNameRange     '0.4.0',
+444 silly addNameRange     '0.0.1-alpha1',
+444 silly addNameRange     '0.0.2-pre1',
+444 silly addNameRange     '0.0.4-pre1',
+444 silly addNameRange     '0.0.5-pre1',
+444 silly addNameRange     '0.0.5-pre2',
+444 silly addNameRange     '0.0.5-pre3',
+444 silly addNameRange     '0.0.5-pre4',
+444 silly addNameRange     '0.0.6-pre1',
+444 silly addNameRange     '0.0.6-pre2' ] ]
+445 verbose addNamed shelljs@0.3.0
+446 silly addNamed semver.valid 0.3.0
+447 silly addNamed semver.validRange 0.3.0
+448 silly cache afterAdd strip-json-comments@1.0.2
+449 verbose afterAdd /home/user/.npm/strip-json-comments/1.0.2/package/package.json not in flight; writing
+450 silly addNameRange number 2 { name: 'exit', range: '>=0.1.0 <0.2.0', hasData: true }
+451 silly addNameRange versions [ 'exit', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+452 verbose addNamed exit@0.1.2
+453 silly addNamed semver.valid 0.1.2
+454 silly addNamed semver.validRange 0.1.2
+455 info retry fetch attempt 1 at 18:43:53
+456 info attempt registry request try #1 at 18:43:53
+457 http fetch GET https://registry.npmjs.org/minimatch/-/minimatch-1.0.0.tgz
+458 verbose afterAdd /home/user/.npm/strip-json-comments/1.0.2/package/package.json written
+459 silly cache afterAdd exit@0.1.2
+460 verbose afterAdd /home/user/.npm/exit/0.1.2/package/package.json not in flight; writing
+461 silly cache afterAdd shelljs@0.3.0
+462 verbose afterAdd /home/user/.npm/shelljs/0.3.0/package/package.json not in flight; writing
+463 verbose afterAdd /home/user/.npm/shelljs/0.3.0/package/package.json written
+464 verbose afterAdd /home/user/.npm/exit/0.1.2/package/package.json written
+465 silly addNameRange number 2 { name: 'underscore', range: '>=1.6.0 <1.7.0', hasData: true }
+466 silly addNameRange versions [ 'underscore',
+466 silly addNameRange   [ '1.0.3',
+466 silly addNameRange     '1.0.4',
+466 silly addNameRange     '1.1.0',
+466 silly addNameRange     '1.1.1',
+466 silly addNameRange     '1.1.2',
+466 silly addNameRange     '1.1.3',
+466 silly addNameRange     '1.1.4',
+466 silly addNameRange     '1.1.5',
+466 silly addNameRange     '1.1.6',
+466 silly addNameRange     '1.1.7',
+466 silly addNameRange     '1.2.0',
+466 silly addNameRange     '1.2.1',
+466 silly addNameRange     '1.2.2',
+466 silly addNameRange     '1.2.3',
+466 silly addNameRange     '1.2.4',
+466 silly addNameRange     '1.3.0',
+466 silly addNameRange     '1.3.1',
+466 silly addNameRange     '1.3.2',
+466 silly addNameRange     '1.3.3',
+466 silly addNameRange     '1.4.0',
+466 silly addNameRange     '1.4.1',
+466 silly addNameRange     '1.4.2',
+466 silly addNameRange     '1.4.3',
+466 silly addNameRange     '1.4.4',
+466 silly addNameRange     '1.5.0',
+466 silly addNameRange     '1.5.1',
+466 silly addNameRange     '1.5.2',
+466 silly addNameRange     '1.6.0',
+466 silly addNameRange     '1.7.0',
+466 silly addNameRange     '1.8.0',
+466 silly addNameRange     '1.8.1',
+466 silly addNameRange     '1.8.2',
+466 silly addNameRange     '1.8.3' ] ]
+467 verbose addNamed underscore@1.6.0
+468 silly addNamed semver.valid 1.6.0
+469 silly addNamed semver.validRange 1.6.0
+470 silly cache afterAdd underscore@1.6.0
+471 verbose afterAdd /home/user/.npm/underscore/1.6.0/package/package.json not in flight; writing
+472 verbose afterAdd /home/user/.npm/underscore/1.6.0/package/package.json written
+473 http fetch 200 https://registry.npmjs.org/minimatch/-/minimatch-1.0.0.tgz
+474 silly fetchAndShaCheck shasum e0dd2120b49e1b724ce8d714c520822a9438576d
+475 verbose addTmpTarball /tmp/npm-23599-dfae574a/registry.npmjs.org/minimatch/-/minimatch-1.0.0.tgz not in flight; adding
+476 verbose addTmpTarball already have metadata; skipping unpack for minimatch@1.0.0
+477 verbose about to build /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint
+478 verbose unlock done using /home/user/.npm/_locks/jshint-a07c4d34abf9bbee.lock for /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint
+479 verbose about to build /home/user/web/node_modules/grunt-contrib-jshint
+480 verbose unlock done using /home/user/.npm/_locks/grunt-contrib-jshint-69c0f67ace7c5d21.lock for /home/user/web/node_modules/grunt-contrib-jshint
+481 verbose stack Error: EACCES, mkdir '/home/user/.npm/minimatch/1.0.0'
+481 verbose stack     at Error (native)
+482 verbose cwd /home/user/web/test
+483 error Linux 3.13.0-46-generic
+484 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+485 error node v0.12.2
+486 error npm  v2.7.4
+487 error path /home/user/.npm/minimatch/1.0.0
+488 error code EACCES
+489 error errno -13
+490 error Error: EACCES, mkdir '/home/user/.npm/minimatch/1.0.0'
+490 error     at Error (native)
+490 error  { [Error: EACCES, mkdir '/home/user/.npm/minimatch/1.0.0']
+490 error   errno: -13,
+490 error   code: 'EACCES',
+490 error   path: '/home/user/.npm/minimatch/1.0.0',
+490 error   parent: 'jshint' }
+491 error Please try running this command again as root/Administrator.
+492 verbose exit [ -13, true ]
+493 verbose unbuild node_modules/grunt-contrib-jshint/node_modules/jshint
+494 info preuninstall jshint@2.5.11
+495 info uninstall jshint@2.5.11
+496 verbose unbuild rmStuff jshint@2.5.11 from /home/user/web/node_modules
+497 verbose unbuild rmStuff in /home/user/web/node_modules/grunt-contrib-jshint/node_modules
+498 silly gentlyRm /home/user/web/node_modules/grunt-contrib-jshint/node_modules/.bin/jshint is being gently removed
+499 silly gentlyRm verifying /home/user/web is an npm working directory
+500 silly gentlyRm containing path /home/user/web is under npm's control, in /home/user/web
+501 silly gentlyRm deletion target /home/user/web/node_modules/grunt-contrib-jshint/node_modules/.bin/jshint is under /home/user/web
+502 verbose gentlyRm vacuuming from /home/user/web/node_modules/grunt-contrib-jshint/node_modules/.bin/jshint up to /home/user/web
+503 info postuninstall jshint@2.5.11
+504 silly gentlyRm /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint is being purged from base /home/user/web
+505 verbose gentlyRm don't care about contents; nuking /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint
+506 silly vacuum-fs purging /home/user/web/node_modules/grunt-contrib-jshint/node_modules/jshint
+507 silly vacuum-fs quitting because other entries in /home/user/web/node_modules/grunt-contrib-jshint/node_modules
+508 verbose unbuild node_modules/grunt-contrib-jshint
+509 info preuninstall grunt-contrib-jshint@0.10.0
+510 info uninstall grunt-contrib-jshint@0.10.0
+511 verbose unbuild rmStuff grunt-contrib-jshint@0.10.0 from /home/user/web/node_modules
+512 info postuninstall grunt-contrib-jshint@0.10.0
+513 silly gentlyRm /home/user/web/node_modules/grunt-contrib-jshint is being purged from base /home/user/web
+514 verbose gentlyRm don't care about contents; nuking /home/user/web/node_modules/grunt-contrib-jshint
+515 silly vacuum-fs purging /home/user/web/node_modules/grunt-contrib-jshint
+516 silly vacuum-fs quitting because other entries in /home/user/web/node_modules
